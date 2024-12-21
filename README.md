@@ -124,6 +124,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Inspired by the course Aerial Robotics offered by the University of Pennsylvania on Coursera.
 
 ## References
+
 - MATLAB Documentation:
    - [ODE45](https://www.mathworks.com/help/matlab/ref/ode45.html)
    - [Graphics](https://www.mathworks.com/help/matlab/graphics.html)
