@@ -39,12 +39,14 @@ The physical properties of the quadrotor are:
 
 #### Coordinate Systems
 
-The coordinate systems and free body diagram for the planar model of a quadrotor are shown in **Figure 1**. The inertial frame, $A$, is defined by axes $a_2$ and $a_3$. The body frame, $B$, is attached to the center of mass of the quadrotor with $b_2$ coinciding with the preferred forward direction and $b_3$ perpendicular to the rotors pointing vertically up (see **Figure 1**).
+The coordinate systems and free body diagram for the planar model of a quadrotor are shown in **Figure 1**. The inertial frame, $\mathcal{A}$, is defined by axes $a_2$ and $a_3$. The body frame, $\mathcal{B}$, is attached to the center of mass of the quadrotor with $b_2$ coinciding with the preferred forward direction and $b_3$ perpendicular to the rotors pointing vertically up (see **Figure 1**).
 
 #### Dynamics
 
 
-For a quadrotor modeled in the $Y$ − $Z$ plane, its orientation is defined by a roll angle, $\phi$. It is assumed that its pitch and yaw angles are 0. You will need the rotation matrix for transforming components of vectors in $B$ to components of vectors in $A$:
+For a quadrotor modeled in the $Y$ − $Z$ plane, its orientation is defined by a roll angle, $\phi$. It is assumed that its pitch and yaw angles are 0. You will need the rotation matrix for transforming components of vectors in $\mathcal{B}$ to components of vectors in $\mathcal{A}$:
+
+<div align="center">
 
 $$
 \mathcal{A}[R]_\mathcal{B} =
@@ -52,8 +54,10 @@ $$
 \cos(\phi) & -\sin(\phi) \\
 \sin(\phi) & \cos(\phi)
 \end{bmatrix}.
-\tag{1}
 $$
+<p align="right">(1)</p>
+
+</div>
 
 We will denote the components of angular velocity of the robot in the body frame by $\dot{\phi}$:
 
