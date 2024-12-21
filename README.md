@@ -33,7 +33,7 @@ The physical properties of the quadrotor are:
 
 ### PD Controller  
 
-In this project, I have implemented a custom PD controller to control the height of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
+In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
 1. **Simple Line**
 2. **Sine Wave**
 3. **Diamond Shape**
