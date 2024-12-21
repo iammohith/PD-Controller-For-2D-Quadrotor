@@ -29,7 +29,11 @@ The physical properties of the quadrotor are:
   
 ### System Model
 
-![Quadrotor Schematic](Quadrotor_Schematic.png)
+![Figure 1: Quadrotor Schematic](Quadrotor_Schematic.png)
+
+#### Coordinate Systems
+
+The coordinate systems and free body diagram for the planar model of a quadrotor are shown in **Figure 1**. The inertial frame, $A$, is defined by axes $a_2$ and $a_3$. The body frame, $B$, is attached to the center of mass of the quadrotor with $b_2$ coinciding with the preferred forward direction and $b_3$ perpendicular to the rotors pointing vertically up (see **Figure 1**).
 
 ### PD Controller  
 
