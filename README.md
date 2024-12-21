@@ -30,6 +30,7 @@ The physical properties of the quadrotor are:
 ### System Model
 
 ![Figure 1: Quadrotor Schematic](Quadrotor_Schematic.png)
+Figure 1: Planar quadrotor model and the coordinate systems.
 
 #### Coordinate Systems
 
