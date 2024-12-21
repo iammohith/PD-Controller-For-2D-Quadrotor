@@ -31,10 +31,10 @@ The physical properties of the quadrotor are:
 ### PD Controller  
 
 In this project, I have implemented a custom PD controller to control the height of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
-1. Simple Line
-2. Sine Wave
-3. Diamond Shape
-4. Step input
+1. **Simple Line**
+2. **Sine Wave**
+3. **Diamond Shape**
+4. **Step Input**
 
 
 ## Features  
@@ -56,7 +56,7 @@ In this project, I have implemented a custom PD controller to control the height
 
 ## Usage
 
-Clone this repository and run the `simulation.m` file
+Clone this repository and run the `line_simulation.m` file for line trajectory, `sine_wave_simulation.m` file for sine wave trajectory, `diamond_shape_simulation.m` file for diamond shape trajectory and `step_input_simulation.m` file for step input trajectory.
 
 ## **File Structure**  
 
