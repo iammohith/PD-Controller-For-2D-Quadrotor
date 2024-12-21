@@ -59,8 +59,9 @@ $$
 We will denote the components of angular velocity of the robot in the body frame by $\dot{\phi}$:
 
 $$
-\mathcal{A}\boldsymbol{\omega}_\mathcal{B} = \dot{\phi}.
+{}^\mathcal{A}\omega_\mathcal{B} = \dot{\phi}.
 $$
+
 
 
 
