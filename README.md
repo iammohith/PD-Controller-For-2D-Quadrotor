@@ -38,6 +38,7 @@ In this project, I have implemented a custom PD controller to control the height
 
 
 ## Features  
+
 - **PD Controller Implementation**:  
   Implements a custom Proportional-Derivative (PD) controller to manage the quadrotor's position in trajectory.  
 
@@ -50,13 +51,15 @@ In this project, I have implemented a custom PD controller to control the height
   - Visualizing the controller's response over time.
 
 ## Requirements
+
 - MATLAB (preferably R2018b or later)
 
 ## Usage
+
 Clone this repository and run the `simulation.m` file
 
-
 ## **File Structure**  
+
 The project consists of the following MATLAB functions:
 
 ## Results
@@ -113,6 +116,7 @@ The current implementation effectively stabilizes the 1D quadrotor and performs 
 By focusing on these areas, the @D quadrotor control system can become more adaptable, precise, and robust for real-world applications without the need to expand into higher dimensions.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
