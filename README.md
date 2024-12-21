@@ -29,7 +29,6 @@ The physical properties of the quadrotor are:
 ![Quadrotor Schematic](Quadrotor_Schematic.png)
 
 ### PD Controller  
-The control input $u$ for the Proportional-Derivative (PD) controller is defined as: 
 
 In this project, I have implemented a custom PD controller to control the height of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
 1. Simple Line
