@@ -69,7 +69,7 @@ $$
 while $u_2$ is proportional to the difference between the thrusts of two rotors:
 
 $$
-u_2 = L(F_1 - F_2).
+u_2 = L(F_1 - F_2)
 $$
 
 Here, $L$ is the arm length of the quadrotor.
