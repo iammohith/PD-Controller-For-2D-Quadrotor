@@ -44,7 +44,7 @@ The coordinate systems and free body diagram for the planar model of a quadrotor
 #### Dynamics
 
 
-For a quadrotor modeled in the $Y$ − $Z$ plane, its orientation is defined by a roll angle, $&phi$. It is assumed that its pitch and yaw angles are 0. You will need the rotation matrix for transforming components of vectors in $B$ to components of vectors in $A$
+For a quadrotor modeled in the $Y$ − $Z$ plane, its orientation is defined by a roll angle, &phi;. It is assumed that its pitch and yaw angles are 0. You will need the rotation matrix for transforming components of vectors in $B$ to components of vectors in $A$
 
 
 ### PD Controller  
