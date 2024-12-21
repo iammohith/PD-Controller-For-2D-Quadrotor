@@ -55,6 +55,7 @@ $$
 \sin(\phi) & \cos(\phi)
 \end{bmatrix}.
 $$
+
 <p align="right">(1)</p>
 
 </div>
