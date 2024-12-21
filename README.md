@@ -54,8 +54,6 @@ $$
 \quad (1)
 $$
 
-*(1)*
-
 We will denote the components of angular velocity of the robot in the body frame by $\dot{\phi}$:
 
 $$
