@@ -1,5 +1,5 @@
 # PD Controller For 2D Quadrotor
-This project involves implementing a Proportional-Derivative (PD) control system for a two-dimensional (2D) quadrotor. The objective is to stabilize the quadrotor's position along two axes while ensuring smooth motion and maintaining the desired trajectory. The PD controller computes corrective actions based on the desired acceleration, position error (the difference between desired and current positions), velocity error (the difference between desired and current velocities), and roll angle error (the difference between desired and current roll angles), allowing for precise control.
+This project involves implementing a Proportional-Derivative (PD) control system for a two-dimensional (2D) quadrotor. The objective is to stabilize the quadrotor's position ensuring smooth motion and maintaining the desired trajectory. The PD controller computes corrective actions based on the desired acceleration, position error (the difference between desired and current positions), velocity error (the difference between desired and current velocities), and roll angle error (the difference between desired and current roll angles), allowing for precise control.
 
 ## Table of Contents
 - [Introduction](#introduction)
