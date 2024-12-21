@@ -60,7 +60,7 @@ $$
 {}^\mathcal{A}\omega_\mathcal{B} = \dot{\phi}
 $$
 
-In the planar model of the quadrotor, we only consider the thrust force on two of the rotors. The quadrotor has two inputs: the thrust force ($\mathcal{u_{1}$) and the moment ($\mathcal{u_{2}$). $\mathcal{u_{1}$ is the sum of the thrusts at each rotor.
+In the planar model of the quadrotor, we only consider the thrust force on two of the rotors. The quadrotor has two inputs: the thrust force ($u_1$) and the moment ($u_2$). $u_1$ is the sum of the thrusts at each rotor.
 
 
 
