@@ -50,7 +50,8 @@ $$
 \mathcal{A}[R]_\mathcal{B} = 
 \begin{bmatrix} \cos(\phi) & -\sin(\phi) \\ 
 \sin(\phi) & \cos(\phi) 
-\end{bmatrix}
+\end{bmatrix} 
+\quad (1)
 $$
 
 *(1)*
