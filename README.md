@@ -23,7 +23,7 @@ The goal of this project is to gain familiarity with quadrotor dynamics and impl
 
 The physical properties of the quadrotor are:
 - Mass ($m$) : 0.18($kg$)
-- Lenght of arm ($l$) : 0.086($m$)
+- Lenght of arm ($L$) : 0.086($m$)
 - Moment of Inertia ($I_{xx}$) : 0.00025 ($kgm^2$)
 
 ![Quadrotor Schematic](Quadrotor_Schematic.png)
