@@ -65,6 +65,7 @@ In the planar model of the quadrotor, we only consider the thrust force on two o
 $$
 u_1 = \sum_{i=1}^2 F_i,
 $$
+
 while $u_2$ is proportional to the difference between the thrusts of two rotors:
 
 $$
