@@ -4,6 +4,7 @@ This project involves implementing a Proportional-Derivative (PD) control system
 ## Table of Contents
 - [Introduction](#introduction)
    - [Technical Details](#technical-details)
+   - [System Model](#system-model)
    - [PD Controller](#pd-controller)
 - [Features](#features)
 - [Requirements](#requirements)
@@ -25,6 +26,8 @@ The physical properties of the quadrotor are:
 - Mass ($m$) : 0.18($kg$)
 - Lenght of arm ($L$) : 0.086($m$)
 - Moment of Inertia ($I_{xx}$) : 0.00025 ($kgm^2$)
+  
+### System Model
 
 ![Quadrotor Schematic](Quadrotor_Schematic.png)
 
