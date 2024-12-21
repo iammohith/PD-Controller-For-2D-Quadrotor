@@ -52,12 +52,13 @@ $$
 \cos(\phi) & -\sin(\phi) \\
 \sin(\phi) & \cos(\phi)
 \end{bmatrix}.
-$$ *(1)*
+$$ 
+*(1)*
 
 We will denote the components of angular velocity of the robot in the body frame by $\dot{\phi}$:
 
 $$
-\mathcal{A}\omega_\mathcal{B} = \dot{\phi}.
+\mathcal{A}_\omega_\mathcal{B} = \dot{\phi}.
 $$
 
 
