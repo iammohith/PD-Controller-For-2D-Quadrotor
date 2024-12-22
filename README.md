@@ -117,6 +117,18 @@ $$
 \ddot{\phi} = u_2/I_{xx}
 $$
 
+Let $r$ denote a state variable, either $y$, $z$ or $\phi$. We can find the commanded acceleration of that state, $\ddot{r}$ , corresponding to a (PD) controller as follows. Define the position and velocity errors as
+
+$$
+e_{p} = r_{T}(t) - r
+$$
+
+$$
+e_{v} = \rdot_{T}(t) - \rdot
+$$
+
+We want error to satisfy the following differential equation, which will result in convergence of the error for some value of $k_p$ and $k_d$.
+
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
 1. **Simple Line**
 2. **Sine Wave**
