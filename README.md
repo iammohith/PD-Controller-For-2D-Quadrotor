@@ -163,7 +163,7 @@ Hovering is the special case of which the desired position is constant and the d
 
 For trajectory following, given the desired trajectories for each state and their derivatives, $r_T(t)$, $\dot{r_T}(t)$, $\ddot{r_T}(t)$, the inputs $u_1$, $u_2$ and $\phi_c$ can be calculated using Equations 6-8.
 
-In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_d$ values for four trajectory cases:
+In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $k_p$ and $k_d$ values for four trajectory cases:
 1. **Simple Line**
 2. **Sine Wave**
 3. **Diamond Shape**
