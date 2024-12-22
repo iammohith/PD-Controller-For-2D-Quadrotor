@@ -109,6 +109,14 @@ $$
 \ddot{y} = -g\phi
 $$
 
+$$
+\ddot{z} = -g + u_1/m
+$$
+
+$$
+\ddot{\phi} = u_2/I_{xx}
+$$
+
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
 1. **Simple Line**
 2. **Sine Wave**
