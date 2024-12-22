@@ -124,7 +124,7 @@ e_{p} = r_{T}(t) - r
 $$
 
 $$
-e_{v} = \dotr_{T}(t) - \dotr
+e_{v} = \dot{r}_{T}(t) - \dot{r}
 $$
 
 We want error to satisfy the following differential equation, which will result in convergence of the error for some value of $k_p$ and $k_d$.
