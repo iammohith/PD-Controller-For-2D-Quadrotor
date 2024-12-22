@@ -133,6 +133,12 @@ $$
 (\ddot{r_T}(t) - \ddot{r_c}) + k_pe_p + k_de_v = 0 \quad(4)
 $$
 
+From this, we can see that
+
+$$
+\ddot{r_c} = \ddot{r_T}(t) + k_pe_p + k_de_v = 0 \quad(5)
+$$
+
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_d$ values for four trajectory cases:
 1. **Simple Line**
 2. **Sine Wave**
