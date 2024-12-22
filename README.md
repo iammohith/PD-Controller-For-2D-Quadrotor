@@ -174,6 +174,23 @@ u_2
 \quad (3)
 $$
 
+$$
+\begin{bmatrix}
+\ddot{y} \\
+\ddot{z} \\
+\ddot{\phi}
+\end{bmatrix}
+$$
+
+```markdown
+$$
+=
+\begin{bmatrix}
+0 \\
+-g \\
+0
+\end{bmatrix}
+$$
 
 
 
