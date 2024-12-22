@@ -129,7 +129,9 @@ $$
 \end{bmatrix}
 $$
 
+$$
 +
+$$
 
 $$
 \begin{bmatrix}
