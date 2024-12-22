@@ -137,6 +137,7 @@ $$
 As a result, the system model can be written as:
 
 $$
+$$
 \begin{bmatrix}
 \ddot{y} \\
 \ddot{z} \\
@@ -181,17 +182,8 @@ $$
 \ddot{\phi}
 \end{bmatrix}
 $$
+$$
 
-```markdown
-$$
-=
-\begin{bmatrix}
-0 \\
--g \\
-0
-\end{bmatrix}
-$$
-```
 
 
 
