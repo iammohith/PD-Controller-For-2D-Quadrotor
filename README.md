@@ -73,7 +73,7 @@ u_2 = L(F_1 - F_2)
 $$
 
 Here, $L$ is the arm length of the quadrotor.
-Let $r = [y,z]^T$ denote the position vector of the planar quadrotor in $\mathcal{A}$. The forces on the system are gravity, in the $−a_3$ direction, and the thrust force, in the b3 direction. Hence, by Newton’s Equations of Motion,
+Let $\mathbf{r} = [y, z]^T$ denote the position vector of the planar quadrotor in $\mathcal{A}$. The forces on the system are gravity, in the $−a_3$ direction, and the thrust force, in the b3 direction. Hence, by Newton’s Equations of Motion,
 
 $$
 m\ddot{\mathbf{r}} = m
