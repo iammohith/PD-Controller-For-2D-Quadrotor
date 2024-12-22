@@ -100,7 +100,7 @@ The dynamic model of the quadrotor (Eq. 3) is nonlinear. However, a PD controlle
 In the case of the quadrotor, the equilibrium configuration is the hover configuration at any arbitrary position $y_0$, $z_0$, with zero roll angle. The corresponding thrust force needed to hover at this configuration is exactly $mg$, while the moment must be zero. Explicitly, the values of the related variables at the hover configuration are
 
 $$
-y_0,z_0,φ_0 = 0,u_{1,0} = mg,u_{2,0} = 0
+y_0,z_0,\phi_0 = 0,u_{1,0} = mg,u_{2,0} = 0
 $$
 
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
