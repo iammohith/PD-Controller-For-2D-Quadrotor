@@ -161,8 +161,7 @@ Hovering is the special case of which the desired position is constant and the d
 Which means
 
 $$
-\mathbf{r}_T(t) = \mathbf{r}_0 = 
-\begin{bmatrix} y_0, z_0 \end{bmatrix}^T, 
+\mathbf{r}_T(t) = \mathbf{r}_0 = [y_0, z_0]^T, 
 \phi_T(t) = \phi_0, 
 \dot{\mathbf{r}}_T(t) = \ddot{\mathbf{r}}_T(t) = 0
 $$
