@@ -75,6 +75,66 @@ $$
 Here, $L$ is the arm length of the quadrotor.
 Let $r = [y,z]^T$ denote the position vector of the planar quadrotor in $\mathcal{A}$. The forces on the system are gravity, in the $−a_3$ direction, and the thrust force, in the b3 direction. Hence, by Newton’s Equations of Motion,
 
+$$
+m\ddot{r} = m
+\begin{bmatrix}
+\ddot{y} \\
+\ddot{z}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+-mg
+\end{bmatrix}
++ \mathcal{A}[R]_\mathcal{B}
+\begin{bmatrix}
+0 \\
+u_1
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+-mg
+\end{bmatrix}
++
+\begin{bmatrix}
+-u_1 \sin(\phi) \\
+u_1 \cos(\phi)
+\end{bmatrix}.
+$$
+
+The angular acceleration is determined by Euler's equation of motion:
+
+$$
+I_{xx}\ddot{\phi} = L(F_1 - F_2) = u_2.
+$$
+
+As a result, the system model can be written as:
+
+$$
+\begin{bmatrix}
+\ddot{y} \\
+\ddot{z} \\
+\ddot{\phi}
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+-g \\
+0
+\end{bmatrix}
++
+\begin{bmatrix}
+-\frac{1}{m}\sin(\phi) & 0 \\
+\frac{1}{m}\cos(\phi) & 0 \\
+0 & \frac{1}{I_{xx}}
+\end{bmatrix}
+\begin{bmatrix}
+u_1 \\
+u_2
+\end{bmatrix}.
+$$
+
 
 
 ### PD Controller  
