@@ -137,6 +137,7 @@ $$
 As a result, the system model can be written as:
 
 $$
+
 $$
 \begin{bmatrix}
 \ddot{y} \\
@@ -182,6 +183,7 @@ $$
 \ddot{\phi}
 \end{bmatrix}
 $$
+
 $$
 
 
