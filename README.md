@@ -119,7 +119,9 @@ $$
 \end{bmatrix}
 $$
 
+$$
 =
+$$
 
 $$
 \begin{bmatrix}
