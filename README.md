@@ -117,7 +117,7 @@ $$
 \ddot{\phi} = u_2/I_{xx}
 $$
 
-Let $r$ denote a state variable, either $y$, $z$ or $\phi$. We can find the commanded acceleration of that state, $\ddot{r}$ , corresponding to a (PD) controller as follows. Define the position and velocity errors as
+Let $r$ denote a state variable, either $y$, $z$ or $\phi$. We can find the commanded acceleration of that state, $\ddot{r}$, corresponding to a (PD) controller as follows. Define the position and velocity errors as
 
 $$
 e_{p} = r_{T}(t) - r
@@ -201,7 +201,7 @@ The project consists of the following MATLAB functions:
 The current implementation effectively stabilizes the 1D quadrotor and performs basic position control. However, there are several areas where the system can be enhanced while remaining within the 1D motion framework. These improvements aim to refine control precision, robustness, and adaptability under realistic conditions:  
 
 ### 1. **Adaptive Gain Tuning**  
-   The fixed proportional ($K_p$) and derivative ($K_v$) gains may not be optimal under varying conditions. Adaptive gain tuning can dynamically adjust these parameters to:  
+   The fixed proportional ($K_p$) and derivative ($K_d$) gains may not be optimal under varying conditions. Adaptive gain tuning can dynamically adjust these parameters to:  
    - Enhance performance under changing conditions, such as varying payloads or external disturbances.  
    - Reduce overshoot and oscillations for different types of trajectories.  
    Real-time optimization techniques, such as Recursive Least Squares (RLS) or model-based adaptive control, can be employed to achieve this.  
