@@ -144,7 +144,7 @@ where $k_p$ and $k_d$ are are proportional and derivative gains respectively.
 As a result, the inputs $u_1$, $u_2$, can be derived as:
 
 $$ 
-u_1 = mg + m\ddot{z}_c \quad(6)
+u_1 = mg + m\ddot{z}_c = \quad(6)
 $$
 
 $$ 
@@ -154,6 +154,16 @@ $$
 $$
 \phi_c = -\frac{\ddot{y}_c}{g} \quad(8)
 $$
+
+#### Hover Contorller
+
+Hovering is the special case of which the desired position is constant and the desired roll is zero.
+
+#### Trajectory Controller
+
+For trajectory following, given the desired trajectories for each state and their derivatives, $r_T(t)$, $\dot{r_T}(t)$, $\ddot{r_T}(t)$, the inputs $u_1$, $u_2$ can be calculated using Equations 6-8.
+
+
 
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_d$ values for four trajectory cases:
 1. **Simple Line**
