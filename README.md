@@ -76,7 +76,7 @@ Here, $L$ is the arm length of the quadrotor.
 Let $\mathbf{r} = [y, z]^T$ denote the position vector of the planar quadrotor in $\mathcal{A}$. The forces on the system are gravity, in the $−a_3$ direction, and the thrust force, in the $b_3$ direction. Hence, by Newton’s Equations of Motion,
 
 $$
-m\ddot{\mathbf{r}} = m[\ddot{y}; \ddot{z}] = [0; -mg] + {}^\mathcal{A}[R]_\mathcal{B}[0; u_1] = [0; -mg] + [-u_1\sin(\phi); u_1\cos(\phi)] \quad (2)
+[\ddot{y}; \ddot{z}; \ddot{\phi}] = [0; -g; 0] + \begin{bmatrix} -\frac{1}{m} \sin(\phi), 0 \\ \frac{1}{m} \cos(\phi), 0 \\ 0, \frac{1}{I_{xx}} \end{bmatrix} [u_1; u_2] \quad (3)
 $$
 
 The angular acceleration is determined by Euler's equation of motion:
