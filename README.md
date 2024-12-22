@@ -124,12 +124,12 @@ e_{p} = r_{T}(t) - r
 $$
 
 $$
-e_{v} = \rdot_{T}(t) - \rdot
+e_{v} = \dotr_{T}(t) - \dotr
 $$
 
 We want error to satisfy the following differential equation, which will result in convergence of the error for some value of $k_p$ and $k_d$.
 
-In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
+In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_d$ values for four trajectory cases:
 1. **Simple Line**
 2. **Sine Wave**
 3. **Diamond Shape**
