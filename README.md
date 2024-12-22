@@ -93,7 +93,11 @@ $$
 $$
 
 $$
-+ \mathcal{A}[R]_\mathcal{B}
++
+$$
+
+$$
+\mathcal{A}[R]_\mathcal{B}
 $$
 
 $$
