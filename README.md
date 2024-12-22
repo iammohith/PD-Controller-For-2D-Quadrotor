@@ -117,7 +117,9 @@ $$
 \ddot{z} \\
 \ddot{\phi}
 \end{bmatrix}
-$$ = 
+$$ 
+
+= 
 
 $$
 \begin{bmatrix}
