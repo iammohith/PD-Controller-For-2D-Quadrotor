@@ -130,7 +130,7 @@ $$
 We want error to satisfy the following differential equation, which will result in convergence of the error for some value of $k_p$ and $k_d$.
 
 $$
-(/ddot{r_T}(t) - ddot{r_c}) + k_pe_p + k_de_v = 0 \quad(4)
+(\ddot{r_T}(t) - \ddot{r_c}) + k_pe_p + k_de_v = 0 \quad(4)
 $$
 
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_d$ values for four trajectory cases:
