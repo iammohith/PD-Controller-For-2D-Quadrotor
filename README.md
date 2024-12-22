@@ -94,6 +94,9 @@ $$
 
 $$
 + \mathcal{A}[R]_\mathcal{B}
+$$
+
+$$
 \begin{bmatrix}
 0 \\
 u_1
