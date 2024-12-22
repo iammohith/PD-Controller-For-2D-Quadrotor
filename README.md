@@ -87,13 +87,7 @@ $$
 
 As a result, the system model can be written as:
 
-$$
-[\ddot{y}; \ddot{z}; \ddot{\phi}] = [0; -g; 0] + [-\frac{1}{m} \sin(\phi), 0; \frac{1}{m} \cos(\phi), 0; 0, \frac{1}{I_{xx}] [u_1; u_2] \quad (3)
-$$
-
-
-
-
+$$ [\ddot{y}; \ddot{z}; \ddot{\phi}] = [0; -g; 0] + [-\frac{1}{m} \sin(\phi), 0; \frac{1}{m} \cos(\phi), 0; 0, \frac{1}{I_{xx}] [u_1; u_2] \quad (3) $$
 
 ### PD Controller  
 
