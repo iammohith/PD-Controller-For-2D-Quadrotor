@@ -103,7 +103,7 @@ $$
 y_0,z_0,\phi_0 = 0,u_{1,0} = mg,u_{2,0} = 0
 $$
 
-To linearize the dynamics, we replace all non-linear function of the state and control variables with their first order Taylor approximations at the equilibrium location. In this case, the non-linear functions are $sin(\phi)$ and $cos(\phi)$. Near $/phi = 0$, $sin(\phi) = \phi$ and $cos(\phi) = 1$
+To linearize the dynamics, we replace all non-linear function of the state and control variables with their first order Taylor approximations at the equilibrium location. In this case, the non-linear functions are $sin(\phi)$ and $cos(\phi)$. Near $\phi = 0$, $sin(\phi) = \phi$ and $cos(\phi) = 1$
 
 
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
