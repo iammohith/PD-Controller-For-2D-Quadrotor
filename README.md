@@ -94,11 +94,13 @@ $$
 =
 
 $$
-\left[ \begin{array}{c} 0 \\ -g \\ 0 \end{array} \right]
+\left[ \begin{array}{c} \ddot{y} \\ \ddot{z} \\ \ddot{\phi} \end{array} \right]
+= \left[ \begin{array}{c} 0 \\ -g \\ 0 \end{array} \right]
 +
 \left[ \begin{array}{cc} -\frac{1}{m} \sin(\phi) & 0 \\ \frac{1}{m} \cos(\phi) & 0 \\ 0 & \frac{1}{I_{xx}} \end{array} \right]
 \left[ \begin{array}{c} u_1 \\ u_2 \end{array} \right]
 $$
+
 
 
 ### PD Controller  
