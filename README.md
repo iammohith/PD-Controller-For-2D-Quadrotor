@@ -81,7 +81,11 @@ m\ddot{\mathbf{r}} = m
 \ddot{y} \\
 \ddot{z}
 \end{bmatrix}
+$$
+
 =
+
+$$
 \begin{bmatrix}
 0 \\
 -mg
@@ -91,12 +95,22 @@ m\ddot{\mathbf{r}} = m
 0 \\
 u_1
 \end{bmatrix}
+$$
+
 =
+
+$$
 \begin{bmatrix}
 0 \\
 -mg
 \end{bmatrix}
+$$
+
+$$
 +
+$$
+
+$$
 \begin{bmatrix}
 -u_1 \sin(\phi) \\
 u_1 \cos(\phi)
