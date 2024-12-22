@@ -90,6 +90,9 @@ $$
 0 \\
 -mg
 \end{bmatrix}
+$$
+
+$$
 + \mathcal{A}[R]_\mathcal{B}
 \begin{bmatrix}
 0 \\
