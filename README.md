@@ -75,39 +75,6 @@ $$
 Here, $L$ is the arm length of the quadrotor.
 Let $\mathbf{r} = [y, z]^T$ denote the position vector of the planar quadrotor in $\mathcal{A}$. The forces on the system are gravity, in the $−a_3$ direction, and the thrust force, in the b3 direction. Hence, by Newton’s Equations of Motion,
 
-\[
-m\ddot{\mathbf{r}} = m
-\begin{bmatrix}
-\ddot{y} \\
-\ddot{z}
-\end{bmatrix}
-=
-\begin{bmatrix}
-0 \\
--mg
-\end{bmatrix}
-+ A[R]B
-\begin{bmatrix}
-0 \\
-u_1
-\end{bmatrix},
-\]
-
-we derive:
-
-\[
-m\ddot{\mathbf{r}} =
-\begin{bmatrix}
-0 \\
--mg
-\end{bmatrix}
-+
-\begin{bmatrix}
--u_1 \sin(\phi) \\
-u_1 \cos(\phi)
-\end{bmatrix}.
-\]
-
 $$
 m\ddot{\mathbf{r}} = m
 \begin{bmatrix}
