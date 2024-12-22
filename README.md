@@ -162,10 +162,7 @@ Which means
 
 $$
 \mathbf{r}_T(t) = \mathbf{r}_0 = 
-\begin{bmatrix}
-y_0 \\
-z_0
-\end{bmatrix}^T, 
+\begin{bmatrix} y_0, z_0 \end{bmatrix}^T, 
 \quad \phi_T(t) = \phi_0, 
 \quad \dot{\mathbf{r}}_T(t) = \ddot{\mathbf{r}}_T(t) = 0
 $$
