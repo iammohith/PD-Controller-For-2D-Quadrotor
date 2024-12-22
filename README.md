@@ -77,7 +77,6 @@ Let $\mathbf{r} = [y, z]^T$ denote the position vector of the planar quadrotor i
 
 $m\ddot{\mathbf{r}} = m\begin{bmatrix} \ddot{y} \\ \ddot{z} \end{bmatrix} = \begin{bmatrix} 0 \\ -mg \end{bmatrix} + {}^\mathcal{A}[R]_\mathcal{B}\begin{bmatrix} 0 \\ u_1 \end{bmatrix} = \begin{bmatrix} 0 \\ -mg \end{bmatrix} + \begin{bmatrix} -u_1\sin(\phi) \\ u_1\cos(\phi) \end{bmatrix} \quad (2)$
 
-
 The angular acceleration is determined by Euler's equation of motion:
 
 $$
