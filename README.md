@@ -144,16 +144,15 @@ where $k_p$ and $k_d$ are are proportional and derivative gains respectively.
 As a result, the inputs $u_1$, $u_2$, can be derived as:
 
 $$
-u_1 = mg + m\ddot{z}_c 
-u_1 = m(g + \ddot{z}_T(t) + k_{d,z}(\dot{z}_T(t) - \dot{z}) + k_{p,z}(z_T(t) - z) \quad(6)
+u_1 = mg + m\ddot{z}_c = m\left(g + \ddot{z}_T(t) + k_{d,z}(\dot{z}_T(t) - \dot{z}) + k_{p,z}(z_T(t) - z)\right)  \quad(6)
 $$
 
 $$
-u_2 = I_{xx}\ddot{\phi}_c \quad(7)
+u_2 = I_{xx}\ddot{\phi}_c = I_{xx}\left(\ddot{\phi}_T(t) + k_{d,\phi}(\dot{\phi}_T(t) - \dot{\phi}) + k_{p,z}(\phi_T(t) - \phi)\right) \quad(7)
 $$
 
 $$
-\phi_c = -\frac{\ddot{y}_c}{g} \quad(8)
+\phi_c = -\frac{\ddot{y}_c}{g} = -\frac{1}{g}\left(\ddot{y}_T(t) + k_{d,y}(\dot{y}_T(t) - \dot{y}) + k_{p,y}(y_T(t) - y)\right) \quad(8)
 $$
 
 
