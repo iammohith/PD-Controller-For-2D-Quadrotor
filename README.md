@@ -165,6 +165,7 @@ $$
 \phi_T(t) = \phi_0, 
 \dot{\mathbf{r}}_T(t) = \ddot{\mathbf{r}}_T(t) = 0
 $$
+
 the inputs $u_1$, $u_2$ and $\phi_c$ can be calculated using Equations 6-8.
 
 #### Trajectory Controller
