@@ -88,7 +88,7 @@ $$
 As a result, the system model can be written as:
 
 $$
-[\ddot{y}; \ddot{y}; \ddot{phi}] = \quad (3)
+[\ddot{y}; \ddot{y}; \ddot{\phi}] = \quad (3)
 $$
 
 
