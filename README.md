@@ -245,7 +245,7 @@ The current implementation effectively stabilizes the 1D quadrotor and performs 
    - **Neural Networks**: Approximate the nonlinear dynamics and improve the controller’s ability to respond to complex conditions.  
    - **Supervised Learning**: Use historical data to fine-tune gains or predict required thrust for specific scenarios.  
 
-By focusing on these areas, the @D quadrotor control system can become more adaptable, precise, and robust for real-world applications without the need to expand into higher dimensions.
+By focusing on these areas, the 2D quadrotor control system can become more adaptable, precise, and robust for real-world applications without the need to expand into higher dimensions.
 
 ## License
 
