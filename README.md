@@ -198,7 +198,7 @@ The project consists of the following MATLAB functions:
 
 ## Future Work  
 
-The current implementation effectively stabilizes the 1D quadrotor and performs basic position control. However, there are several areas where the system can be enhanced while remaining within the 1D motion framework. These improvements aim to refine control precision, robustness, and adaptability under realistic conditions:  
+The current implementation effectively stabilizes the 2D quadrotor and performs basic position control. However, there are several areas where the system can be enhanced while remaining within the 2D motion framework. These improvements aim to refine control precision, robustness, and adaptability under realistic conditions:  
 
 ### 1. **Adaptive Gain Tuning**  
    The fixed proportional ($K_p$) and derivative ($K_d$) gains may not be optimal under varying conditions. Adaptive gain tuning can dynamically adjust these parameters to:  
