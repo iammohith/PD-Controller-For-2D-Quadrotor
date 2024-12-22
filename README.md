@@ -124,13 +124,14 @@ $$
 \begin{bmatrix}
 -u_1 \sin(\phi) \\
 u_1 \cos(\phi)
-\end{bmatrix}.
+\end{bmatrix}
+\quad (2)
 $$
 
 The angular acceleration is determined by Euler's equation of motion:
 
 $$
-I_{xx}\ddot{\phi} = L(F_1 - F_2) = u_2.
+I_{xx}\ddot{\phi} = L(F_1 - F_2) = u_2
 $$
 
 As a result, the system model can be written as:
@@ -169,7 +170,8 @@ $$
 \begin{bmatrix}
 u_1 \\
 u_2
-\end{bmatrix}.
+\end{bmatrix}
+\quad (3)
 $$
 
 
