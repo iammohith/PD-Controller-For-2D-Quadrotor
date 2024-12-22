@@ -91,7 +91,17 @@ $$
 [\ddot{y}; \ddot{z}; \ddot{\phi}] = [0; -g; 0] + [-\frac{1}{m} \sin(\phi), 0; \frac{1}{m} \cos(\phi), 0; 0, \frac{1}{I_{xx}}] [u_1; u_2] \quad (3)
 $$
 
-### PD Controller  
+### PD Controller
+
+#### Linearisation
+
+The dynamic model of the quadrotor (Eq. 3) is nonlinear. However, a PD controller is designed for a linear system. To use a linear controller for this nonlinear system, we first linearize the equation of motions about an equilibrium configuration.
+
+In the case of the quadrotor, the equilibrium configuration is the hover configuration at any arbitrary position $y_0$, $z_0$, with zero roll angle. The corresponding thrust force needed to hover at this configuration is exactly $mg$, while the moment must be zero. Explicitly, the values of the related variables at the hover configuration are
+
+$$
+y_0,z_0,φ_0 = 0,u_{1,0} = mg,u_{2,0} = 0
+$$
 
 In this project, I have implemented a custom PD controller to control the trajectory of quadrotor and tuned $K_p$ and $K_v$ values for four trajectory cases:
 1. **Simple Line**
