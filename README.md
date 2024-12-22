@@ -88,16 +88,7 @@ $$
 As a result, the system model can be written as:
 
 $$
-\begin{bmatrix} \ddot{y} \\ \ddot{z} \\ \ddot{\phi} \end{bmatrix} 
-= \begin{bmatrix} 0 \\ -g \\ 0 \end{bmatrix} 
-+ \begin{bmatrix} 
--\frac{1}{m} \sin(\phi) & 0 \\
-\frac{1}{m} \cos(\phi) & 0 \\
-0 & \frac{1}{I_{xx}}
-\end{bmatrix}
-\begin{bmatrix} 
-u_1 \\ u_2 
-\end{bmatrix} \quad (3)
+\begin{bmatrix} \ddot{y} \\ \ddot{z} \\ \ddot{\phi} \end{bmatrix} = \begin{bmatrix} 0 \\ -g \\ 0 \end{bmatrix} + \begin{bmatrix} -\frac{1}{m} \sin(\phi) & 0 \\ \frac{1}{m} \cos(\phi) & 0 \\ 0 & \frac{1}{I_{xx}} \end{bmatrix} \begin{bmatrix} u_1 \\ u_2 \end{bmatrix} \quad (3)
 $$
 
 
