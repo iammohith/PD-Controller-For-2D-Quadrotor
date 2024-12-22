@@ -137,8 +137,6 @@ $$
 As a result, the system model can be written as:
 
 $$
-
-$$
 \begin{bmatrix}
 \ddot{y} \\
 \ddot{z} \\
@@ -173,7 +171,7 @@ $$
 u_1 \\
 u_2
 \end{bmatrix}
-\quad (3)
+
 $$
 
 $$
@@ -182,8 +180,7 @@ $$
 \ddot{z} \\
 \ddot{\phi}
 \end{bmatrix}
-$$
-
+\quad (3)
 $$
 
 
