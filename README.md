@@ -190,9 +190,47 @@ In this project, I have implemented a custom PD controller to control the trajec
 
 Clone this repository and run the `line_simulation.m` file for line trajectory, `sine_wave_simulation.m` file for sine wave trajectory, `diamond_shape_simulation.m` file for diamond shape trajectory and `step_input_simulation.m` file for step input trajectory.
 
-## **File Structure**  
+## **File Structure**
 
 The project consists of the following MATLAB functions:
+
+- **`simulation_2d.m`**:  
+   The main function that initiates the 2D quadrotor simulation. It connects the desired trajectory, PD controller, and dynamics, and visualizes the quadrotor’s planar motion and controller performance.
+
+- **`controller.m`**:  
+   Implements a Proportional-Derivative (PD) controller to stabilize the 2D quadrotor. The controller computes the required thrust and moment inputs based on position, velocity, and roll angle errors, ensuring the quadrotor follows the desired trajectory.
+
+- **`line_simulation.m`**:  
+   Executes a simulation where the quadrotor follows a straight-line trajectory. It demonstrates how the PD controller maintains a constant linear path.
+
+- **`sine_wave_simulation.m`**:  
+   Runs a simulation in which the quadrotor tracks a sine wave trajectory. This tests the controller’s ability to manage continuously varying reference positions.
+
+- **`diamond_shape_simulation.m`**:  
+   Simulates the quadrotor following a diamond-shaped trajectory. It highlights the controller’s performance during rapid changes in direction and more complex motion patterns.
+
+- **`step_input_simulation.m`**:  
+   Simulates the quadrotor’s response to a step input trajectory. This is useful for evaluating the transient response of the PD controller when the desired state undergoes sudden changes.
+
+- **`libs/`**:  
+   Contains helper functions for the simulation:  
+   - **`QuadPlot.m`**:  
+     Visualizes the 2D quadrotor’s position, orientation, and trajectory over time, providing a graphical analysis of the controller’s performance.  
+   - **`sys_eom.m`**:  
+     Defines the equations of motion (EOM) for the 2D quadrotor. For planar motion, it models the accelerations in the horizontal and vertical directions under gravitational influence and control inputs.  
+   - **`sys_params.m`**:  
+     Sets system parameters such as the quadrotor’s mass ($m$), gravitational acceleration ($g$), arm length ($L$), and the minimum and maximum control inputs.
+
+- **`trajectories/`**:  
+   Contains trajectory generation functions used to define the desired reference trajectories:  
+   - **`traj_diamond.m`**:  
+     Generates a diamond-shaped trajectory for the simulation.  
+   - **`traj_line.m`**:  
+     Generates a straight-line trajectory.  
+   - **`traj_sine.m`**:  
+     Generates a sine wave trajectory.  
+   - **`traj_step.m`**:  
+     Generates a step input trajectory.
 
 ## Results
 
