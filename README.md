@@ -196,6 +196,18 @@ The project consists of the following MATLAB functions:
 
 ## Results
 
+### Quadrotor Simulation for Line Trajectory and Controller Response
+![Quadrotor Simulation for Line Trajectory and Controller Response](traj_line.gif)
+
+### Quadrotor Simulation for Sine Wave Trajectory and Controller Response
+![Quadrotor Simulation for Sine Wave Trajectory and Controller Response](traj_sine.gif)
+
+### Quadrotor Simulation for Diamond Shape Trajectory and Controller Response
+![Quadrotor Simulation for Diamond Shape Trajectory and Controller Response](traj_diamond.gif)
+
+### Quadrotor Simulation for Step Input Trajectory and Controller Response
+![Quadrotor Simulation for Step Input Trajectory and Controller Response](traj_step.gif)
+
 ## Future Work  
 
 The current implementation effectively stabilizes the 2D quadrotor and performs basic position control. However, there are several areas where the system can be enhanced while remaining within the 2D motion framework. These improvements aim to refine control precision, robustness, and adaptability under realistic conditions:  
